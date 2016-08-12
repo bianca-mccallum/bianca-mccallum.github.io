@@ -1,0 +1,292 @@
+
+290 lines 0 errors 0 warnings
+1	/* Site Styles */
+2	
+3	body {
+4	    font-family: 'Open Sans', sans-serif;
+5	    text-transform: uppercase;
+6	}
+7	
+8	a {
+9	    text-decoration: none;
+10	    color: rgba(0,0,0, 0.6);
+11	    text-transform: uppercase;
+12	}
+13	
+14	.btn {
+15	            background: none;
+16	            outline: none;
+17	            border: 2px solid #FFFFFF;
+18	            padding: 10px 45px;
+19	            text-transform: uppercase;
+20	            color: white;
+21	            margin: 20px;
+22	            letter-spacing: 1px;
+23	            border-radius: 0px;
+24	        }
+25	
+26	    .active {
+27	        font-weight: 600;
+28	    }
+29	
+30	h3 {
+31	    color: rgba(0,0,0, 0.5);
+32	    letter-spacing: 3px;
+33	    font-size: 22px;
+34	    margin: 30px 0;
+35	    padding: 10px 0;
+36	}
+37	
+38	/* Navigation Styles */
+39	
+40	.navbar {
+41	    margin-bottom: 0px;
+42	    background: #fff;
+43	    border: none;
+44	}
+45	
+46	.navbar-brand {
+47	    background: url("../img/logo.png") no-repeat;
+48	    width: 228px;
+49	    height: 43px;
+50	    
+51	}
+52	
+53	
+54	
+55	.navbar-collapse .btn {
+56	    background: none;
+57	            outline: none;
+58	            border: 2px solid #999999;
+59	            padding: 10px 45px;
+60	            text-transform: uppercase;
+61	            color: #999999;
+62	            margin: 20px;
+63	            letter-spacing: 1px;
+64	            border-radius: 0px;
+65	}
+66	
+67	.navbar-collapse .btn:hover {
+68	    background: #999999;
+69	    color: #fff;
+70	    transition: 1s;
+71	    -webkit-transition: 1s;
+72	}
+73	
+74	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+75	    background: none;
+76	    font-weight: bold;
+77	}
+78	
+79	
+80	.navbar-nav {
+81	    margin: 1.5% 0 1.5% 0;
+82	}
+83	.navbar-toggle {
+84	    margin: 3.5%;
+85	    border: none;
+86	    border-radius: 0px;
+87	}
+88	
+89	.navbar-collapse .btn {
+90	    margin: 20px 0px 20px 20px
+91	}
+92	
+93	.filters {
+94	    padding: 0 0 1.5em 0;
+95	    margin: 0 auto;
+96	    width: 47%;
+97	}
+98	
+99	.nav-pills li {
+100	    display: inline;
+101	    text-align: center;
+102	}
+103	
+104	.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+105	    background: none;
+106	    border-radius: 0px;
+107	    border: 1px solid #eee;
+108	    color: rgba(0,0,0, 0.6);
+109	}
+110	
+111	.modal-content {
+112	    border-radius: 0px;
+113	}
+114	
+115	/* Main Styles */
+116	
+117	.jumbotron {
+118	    background: url("../img/hero.jpg") no-repeat;
+119	    background-size: cover;
+120	    text-transform: uppercase;
+121	    color: #fff;
+122	    padding: 7% 0;
+123	}
+124	
+125	.jumbotron h1 {
+126	    font-weight: 600;
+127	    letter-spacing: 5px;
+128	}
+129	
+130	.jumbotron h2 {
+131	    letter-spacing: 10px;
+132	}
+133	.jumbotron .btn:hover {
+134	        background: #FFFFFF;
+135	        color: #000;
+136	        transition: 1s;
+137	        -webkit-transition: 1s;
+138	    }
+139	
+140	.thumbnail {
+141	    border: none;
+142	    border-radius: 0px;
+143	    padding: 0px;
+144	}
+145	
+146	.thumbnail .caption {
+147	    padding: 0 0 3% 0;
+148	    border-bottom: 1px solid #999999;
+149	}
+150	.caption h3 {
+151	    margin: 5% 0 1.5% 0;
+152	    font-size: 12pt;
+153	    letter-spacing: 6px;
+154	    padding-bottom: 0.7%;
+155	}
+156	
+157	.caption p {
+158	    font-size: 0.9em;
+159	    color: rgba(0,0,0, 0.5);
+160	}
+161	
+162	.mailing-list {
+163	    background-color: rgba(0,0,0, 0.16);
+164	    padding: 1% 3%;
+165	}
+166	.mailing-list input {
+167	        width: 350px;
+168	        padding: 2% 3%;
+169	        text-align: center;
+170	        text-transform: uppercase;
+171	        font-size: 12px;
+172	        border: none;
+173	        margin: 0 auto;
+174	}
+175	
+176	.mailing-list h3 {
+177	    margin-bottom: 1%;
+178	}
+179	
+180	.mailing-list .btn:hover {
+181	    background: #FFFFFF;
+182	    color: #d6d6d6;
+183	    transition: 1s;
+184	    -webkit-transition: 1s;
+185	    border-color: #FFFFFF;
+186	}
+187	.sub-footer {
+188	    background-color: rgba(0,0,0, 0.3);
+189	    color: white;
+190	    font-size: 0.9em;
+191	    padding: 1.5em 0 0.5em 0;
+192	
+193	}
+194	
+195	.form-control {
+196	    border-radius: 0px;
+197	    text-transform: uppercase;
+198	    font-size: 12px;
+199	    padding: 15px 10px;
+200	}
+201	
+202	form p {
+203	    font-size: 10pt;
+204	    color: rgba(0,0,0, 0.6);
+205	    margin: 35px 0px 30px 0px;
+206	}
+207	
+208	.form-group textarea {
+209	    text-transform: uppercase;
+210	        padding: 15px 10px;
+211	        height: 300px;
+212	        outline: none;
+213	}
+214	
+215	form .btn {
+216	    background: none;
+217	    outline: none;
+218	    border: 2px solid #999999;
+219	    padding: 10px 45px;
+220	    text-transform: uppercase;
+221	    color: #999999;
+222	    margin: 5px 0 20px 0;
+223	    letter-spacing: 1px;
+224	    border-radius: 0px;
+225	}
+226	
+227	form .btn:hover {
+228	    background: #999999;
+229	    color: #fff;
+230	    transition: 1s;
+231	    -webkit-transition: 1s;
+232	}
+233	
+234	#about {
+235	    color: rgba(0,0,0, 0.6);
+236	    padding: 3em 0;
+237	}
+238	
+239	#about h2 {
+240	    font-size: 14pt;
+241	    letter-spacing: 3px;
+242	    padding: 15px 0px 30px 0;
+243	
+244	}
+245	
+246	#about .btn {
+247	    background: none;
+248	    outline: none;
+249	    border: 2px solid #999999;
+250	    padding: 10px 45px;
+251	    text-transform: uppercase;
+252	    color: #999999;
+253	    margin: 5px 0 20px 0;
+254	    letter-spacing: 1px;
+255	    border-radius: 0px;
+256	}
+257	
+258	#about .btn:hover {
+259	    background: #999999;
+260	    color: #fff;
+261	    transition: 1s;
+262	    -webkit-transition: 1s;
+263	}
+264	
+265	
+266	
+267	@media (min-width: 767px) and (max-width: 1680px) {
+268	    .navbar>.container .navbar-brand {
+269	    margin-left: 0;
+270	    margin-top: 8%;
+271	}
+272	}
+273	
+274	@media (min-width: 750px) and (max-width: 925px) {
+275	    .navbar>.container .navbar-brand {
+276	    margin-left: 0;
+277	    margin-top: 6%;
+278	}
+279	}
+280	
+281	@media (min-width: 400px) {
+282	    .caption h3,p {
+283	        text-align: center;
+284	    }
+285	    .navbar-brand {
+286	        margin: 2%;
+287	    }
+288	}
+289	
+290	
